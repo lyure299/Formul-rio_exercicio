@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Formulário </title>
+</head>
+<body>
+  <form action="mailto:teste@gmail.com"metod="post" entype="text/plain"name="cadastro"></form>
+  <p>Por favor, preencha os campos a baixo e depois clique no botão Enviar. Caso necessite apagar os dados
+    , dê um clique no botão Limpar,<br> Muito obrigado!
+    <br><br><br></p> 
+  <!--Nome usuario-->
+  <h1>Nome de usuario</h1>
+  <input type="text" name="nome" value="Name" size="35">
+  <!--Senha-->
+  <h1>Senha</h1>
+  <input type="password" name="senha" value="password" size="35"> <br>
+  <!--Sexo:<br>-->
+  <br>
+  <h1>Sexo</h1>
+  <input type="radio" name="sexo" value="f"> feminino <br>
+  <input type="radio" name="sexo" value="m"> masculino <br><br>
+  <!--Estado civil:<br>-->
+  <br>
+  <h1>Estado civil</h1>
+  <input type="radio" name="civil" value="s"> solteiro <br>
+  <input type="radio" name="civil" value="c"> casado <br>
+  <input type="radio" name="civil" value="e"> enrolado <br><br>
+  <!--Bens que possue-->
+  <br>
+  <!--Faixa de idade-->
+  <h1>Faixa de idade</h1>
+     <select name="faxaidade">
+     <option value="3a10"> 3 a 10 anos
+      <option value="11a25"> 11 a 25 anos
+        <option value="26a35"> 26 a 35 anos
+          <option value="36a55"> 36 a 55 anos
+  </select>
+          <br>
+          <h1>observações gerais</h1>
+          <textarea name="obcervacoes" rows="5" cols="60"></textarea><br>
+          <input type="submit" value="Enviar os dados">
+          <input type="reset" value="Limpar os dados"
+          </form>
+</body>
+</html>
